@@ -1,0 +1,41 @@
+:root {
+    /* Colours */
+    --color-dark-green: #0C4D54;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-white-translucid: #ffffffa4;
+
+    /* Font Size */
+    --font-size-large: 2.4rem;
+    --font-size-medium: 2rem;
+    --font-size-small: 1.6rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: var(--font-size-small);
+}
+
+ul {
+    list-style: none;
+    color: var(--color-white);
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-white);
+}
